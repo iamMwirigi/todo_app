@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-<!--todolist_confirm_delete.html-->
+<!-- todolist_confirm_delete.html -->
 
 <h3>Delete List</h3>
 
@@ -13,7 +13,7 @@
         value="Yes, delete."
         type="submit">
 </form>
-<input
-    value="Cancel"
-    type="button"
-    onclick="location.href='{% url "index" %}';">
+
+<input value="Cancel" type="button" onclick="location.href='{% url 'index' %}';">
+
+{% endblock %}
